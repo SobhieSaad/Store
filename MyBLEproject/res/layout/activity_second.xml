@@ -1,0 +1,165 @@
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/RHE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="5dp"
+        android:visibility="visible" >
+
+     <TableRow
+         android:layout_height="wrap_content"
+         android:gravity="left" 
+         >
+                 <TextView
+              android:gravity="left"
+              android:text=""
+              android:background="@drawable/trrr2rrrrrrr"
+              android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="50dp" />
+
+
+       
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+              android:gravity="right"
+              android:text=""
+          
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+              <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+              android:gravity="right"
+              android:text=""
+          	  style="@style/CodeFont"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+         <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+              style="@style/CodeFont"
+              android:gravity="right"
+              android:text=""
+           	  android:layout_height="30dp"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         
+                 <TextView
+                     android:id="@+id/T1"
+                     style="@style/CodeFont"
+                     android:layout_width="wrap_content"
+                     android:gravity="center_vertical"
+                     android:text="@string/t1"
+                     android:textSize="20dp"
+                     android:textStyle="bold" />
+ 
+     </TableRow>
+       <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+              android:gravity="right"
+              android:text=""
+              style="@style/CodeFont"
+           android:layout_height="30dp"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+     
+         <TableRow android:layout_height="wrap_content">
+         
+                 <TextView
+                     android:id="@+id/T2"
+                     style="@style/CodeFont"
+                     android:layout_width="wrap_content"
+                     android:gravity="center_vertical"
+                     android:text="@string/t2"                     
+                     android:textSize="18dp"
+                     android:textStyle="bold" />
+ 
+     </TableRow>
+       <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+                        
+              android:gravity="right"
+              android:text=""
+              android:layout_height="50dp"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+         
+
+        <TableRow android:layout_height="wrap_content">
+         
+         
+                 <TextView
+                     android:id="@+id/T3"
+                     style="@style/CodeFont"
+              android:gravity="center_vertical"
+              android:text="All you needs are here .."
+                android:textSize="18dp"
+              android:textStyle="bold"
+                   android:layout_width="wrap_content"
+              />
+
+  
+ 
+     </TableRow>
+
+          <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+              android:gravity="right"
+              style="@style/CodeFont"
+              android:text=""
+          
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+              <TableRow android:layout_height="wrap_content">
+             
+                    <TextView
+              android:gravity="right"
+              style="@style/CodeFont"
+              android:text=""
+           android:layout_height="30dp"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              />
+         </TableRow>
+         
+        
+     <TableRow android:layout_height="wrap_content">
+
+         <Button
+             android:id="@+id/button1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#FFFFFF"
+             android:onClick="start"
+             android:textSize="30dp"
+             android:textStyle="bold"
+             android:background="@drawable/btn"
+             android:text="@string/start" />
+       
+     </TableRow>
+
+</TableLayout>
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Al Madina Mall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send">Send</string>
+    <string name="list">List Devices</string>
+    <string name="turnon">turn On</string>
+    <string name="turnoff">turn Off</string>
+    <string name="title_activity_second">Al Madina Mall</string>
+    <string name="la" />
+    <string name="start">Start</string>
+    <string name="title_activity_third">Al Madina Mall</string>
+    <string name="t1">Welcome in Al Madina Mall</string>
+    <string name="t2">This Application helps you getting an interesting shopping</string>
+
+</resources>
